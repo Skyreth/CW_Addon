@@ -1,5 +1,9 @@
 include("shared.lua")
 
+function ENT:Draw()
+	self:DrawModel()
+end
+
 function NPC(ply)
 
 	local DFrame = vgui.Create( "Garage" ) 
