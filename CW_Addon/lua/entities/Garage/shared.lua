@@ -8,7 +8,7 @@ ENT.Purpose = "N/A"
 ENT.Instructions = "Press E (Use touch)"
 ENT.Spawnable = false
 ENT.AdminSpawnable = true
-Ent.AutomaticFrameAdvance = true
+ENT.AutomaticFrameAdvance = true
 
 function ENT:SetAutomaticFrameAdvance(bUsingAnim)
 	self.SetAutomaticFrameAdvance = bUsingAnim
